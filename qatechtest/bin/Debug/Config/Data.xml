@@ -1,0 +1,27 @@
+<Config>
+<!--Details for user log in -->
+	<Username>Luke</Username>
+	<Password>Skywalker</Password>
+	<LogInURL>http://cafetownsend-angular-rails.herokuapp.com/login</LogInURL>
+<!-- Ivalid details for Log In Page -->	
+	<InvalidUsername>Darth</InvalidUsername>
+	<InvalidPassword>Vader</InvalidPassword>
+<!-- Details for Employees Page -->	
+	<EmployeesPageURL>http://cafetownsend-angular-rails.herokuapp.com/employees</EmployeesPageURL>
+<!-- Details for Create Employee Page -->	
+	<FirstName>Gordon</FirstName>
+	<LastName>Freeman</LastName>
+	<StartDate>2017-11-26</StartDate>
+	<Email>Gordon.Freeman@blackmesa.com</Email>
+	<CreateEmployeeURL>http://cafetownsend-angular-rails.herokuapp.com/employees/new</CreateEmployeeURL>
+<!-- Details for Edit Employee Page -->
+	<FirstName>Geralt</FirstName>
+	<LastName>Rivia</LastName>
+	<StartDate>2017-07-07</StartDate>
+	<Email>Geralt.Rivia@cdprojekt.com</Email>	
+<!-- Invalid Employee Items -->
+	<InvalidEmail>NotaRealEmail.com</InvalidEmail>
+	<InvalidStartDate>9999-99-99</InvalidStartDate>
+	<EmptyFirstName> </EmptyFirstName>
+	<EmptyLastName> </EmptyLastName>
+</Config>
